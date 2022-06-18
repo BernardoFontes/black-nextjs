@@ -19,7 +19,7 @@ interface ApiResponse {
 
 const Static: NextPage = (props: {
     children?: ReactNode
-    serverSideData?: ApiResponse
+    staticData?: ApiResponse
 }) => {
     const [clientSideData, setClientSideData] = useState<ApiResponse>()
 
